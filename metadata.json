@@ -2,9 +2,9 @@
   "name": "hadenlabs-casperjs",
   "version": "1.0.0",
   "author": "@slovacus",
-  "summary": "",
+  "summary": "Offers Installation Application casperjs",
   "license": "Mit",
-  "source": "",
+  "source": "git@github.com:hadenlabs/puppet-module-casperjs.git",
   "project_page": "https://github.com/hadenlabs/puppet-module-casperjs",
   "issues_url": "",
   "dependencies": [
