@@ -11,6 +11,10 @@
     {
       "name": "puppetlabs-stdlib",
       "version_requirement": ">= 1.0.0"
+    },
+    {
+      "name": "hadenlabs-phantomjs",
+      "version_requirement": ">= 1.0.0"
     }
   ]
 }
