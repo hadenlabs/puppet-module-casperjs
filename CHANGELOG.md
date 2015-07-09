@@ -1,3 +1,7 @@
+### v1.0.3 (2015-07-09)
+
+- #4 clean module dependence git
+
 ### v1.0.2 (2015-07-09)
 
 - #4 clean module dependence
