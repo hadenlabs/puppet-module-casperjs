@@ -19,10 +19,10 @@ class casperjs::install {
   }
 
   exec{ "casperjs link bin":
-    command => "ln -s ${::casperjs::package_fullpath_tmp}/bin/casperjs ${::casperjs::package_path_bin}",
+    command => "ln -s /opt/${::casperjs::package_app_name}/bin/casperjs ${::casperjs::package_path_bin}",
     cwd => "${::casperjs::package_path_tmp}",
     require => [Exec['casperjs move directory opt']],
-    unless => "${::casperjs::package_app_name} --version",
+    unless => "which ${::casperjs::package_app_name}",
   }
 
 }
