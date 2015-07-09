@@ -15,6 +15,10 @@
     {
       "name": "hadenlabs-phantomjs",
       "version_requirement": ">= 1.0.0"
+    },
+    {
+      "name": "puppetlabs-git",
+      "version_requirement": ">= 1.0.0"
     }
   ]
 }
