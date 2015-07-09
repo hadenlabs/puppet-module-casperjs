@@ -1,6 +1,6 @@
 {
   "name": "hadenlabs-casperjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "@slovacus",
   "summary": "Offers Installation Application casperjs",
   "license": "Mit",
@@ -11,10 +11,6 @@
     {
       "name": "puppetlabs-stdlib",
       "version_requirement": ">= 1.0.0"
-    },
-    {
-      "name": "hadenlabs-phantomjs",
-      "version_requirement": ">= v1.0.0"
     }
   ]
 }
